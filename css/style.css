@@ -1,0 +1,394 @@
+/* navbar styling */
+.navbar-bg{
+    background-color: #000324;
+}
+
+.navbar{
+    align-items: end;
+}
+
+.nav-link {
+    color: white;
+    font-family: 'Dosis', sans-serif;
+    font-size: 1.25rem;
+}
+
+.nav-link:hover{
+    color: white;
+    outline: solid 0.063rem;
+    outline-offset: -0.313rem;
+}
+
+/* header styling */
+.header{
+    background-image: url("/assets/header.jpg");
+    height: 31.25rem;
+    background-size: cover;
+    background-position: 50% 55%;
+}
+
+.header-clear-bg {
+    height: 8.375rem;
+}
+
+.header-txt-bg {
+    background-color: #000324;
+    opacity: 0.8;
+    height: 7.25rem;
+}
+
+.header-h1-txt {
+    font-size: 2.813rem;
+    color: white;
+    opacity: 1;
+    font-family: 'Dosis', sans-serif;
+    display: flex;
+    align-items:flex-end;
+}
+
+.header-p-txt {
+    font-size: 1rem;
+    color: white;
+    opacity: 1;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+/* overview styling */
+.white-space {
+    height: 6.25rem;
+}
+
+.hamster-home{
+    background-image: url("/assets/hamsterhomejpg.jpg");
+    height: 26rem;
+    background-position: center;
+}
+
+.overview-header{
+    font-size: 2.188rem;
+    font-family: 'Dosis', sans-serif;
+}
+
+.overview-p{
+    font-size: 1rem;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.overview-pictures{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+/* rooms styling */
+.rooms-bg {
+    background-image: url("/assets/bg2.jpg");
+    background-size: cover;
+    background-position: right 60% bottom 35%;
+}
+
+.rooms-title-space {
+    height: 6.5rem;
+    font-size: 2.188rem;
+    font-family: 'Dosis', sans-serif;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.pictures-center {
+    display: flex;
+    justify-content: center;
+}
+
+.queen-room-img {
+    background-image: url("/assets/room1.jpg");
+    background-size: cover;
+    height: 11.875rem;
+    width: 23.063rem;
+    margin-left: 0.438rem;
+    margin-right: 0.438rem;
+}
+
+.king-room-img {
+    background-image: url("/assets/room2.jpg");
+    background-size: cover;
+    height: 11.875rem;
+    width: 23.063rem;
+    margin-left: 0.438rem;
+    margin-right: 0.438rem;
+}
+
+.suite-room-img {
+    background-image: url("/assets/room3.jpg");
+    background-size: cover;
+    height: 11.875rem;
+    width: 23.06rem;
+    margin-left: 0.438rem;
+    margin-right: 0.438rem;
+}
+
+.rooms-txt-area {
+    height: 20.75rem;
+    width: 23.063rem;
+    background-color: white;
+    margin-left: 0.438rem;
+    margin-right: 0.438rem;
+}
+
+.rooms-h4{
+    font-size: 1.563rem;
+    font-family: 'Dosis', sans-serif;
+    margin-top: 1.313rem;
+}
+
+.rooms-p{
+    font-size: 1rem;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+}
+
+li{
+    font-size: 1rem;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-left: -.8rem;
+    margin-bottom: .3rem;
+}
+
+.button-spacing {
+    margin-bottom: 1.188rem;
+    margin-left: .5rem;
+}
+
+/* packages styling */
+.packages-top-white-space {
+    height: 6.625rem;
+}
+
+.packages-bottom-white-space {
+    height: 5.938rem;
+}
+
+.packages-title {
+    text-align: center;
+    font-size: 2.188rem;
+    font-family: 'Dosis', sans-serif;
+    margin-bottom: 1rem;
+}
+
+.packages-img1-bg {
+    background-image: url("/assets/hamsterwedding.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 35.063rem;
+    height: 14.625rem;
+    margin-right: 0.469rem;
+    margin-left: 0.469rem;
+
+}
+
+.packages-img2-bg {
+    background-image: url("/assets/hamsterspring.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 35.063rem;
+    height: 14.625rem;
+    margin-right: 0.469rem;
+    margin-left: 0.469rem;
+}
+
+.packages-img3-bg {
+    background-image: url("/assets/hamstercheese.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 35.063rem;
+    height: 14.625rem;
+    margin-right: 0.469rem;
+    margin-left: 0.469rem;
+}
+
+.packages-txt-box {
+    width: 35.063rem;
+    height: 14.625rem;
+    margin-right: 0.469rem;
+    margin-left: 0.469rem;
+    display: flex;
+    flex-direction: column;
+    justify-content:  center;
+
+}
+
+.packages-txt-box-header {
+    font-size: 1.563rem;
+    font-family: 'Dosis', sans-serif;
+    margin-left: -.8rem;
+}
+
+.packages-txt-box-price {
+    font-size: 1rem;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #1F51A8;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: -.8rem;
+}
+
+.packages-txt-box-body {
+    font-size: 1rem;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-bottom: 1rem;
+    margin-left: -.8rem;
+}
+
+
+/* amenities styling */
+.amenities-bg{
+    background-image: url("/assets/bg.jpg");
+    background-size: cover;
+    background-position: right 60% bottom 35%;
+    height: 34.25rem;
+    color: white;
+}
+
+.amenities-void-space-1 {
+    height: 2.813rem;
+}
+
+.amenities-title {
+    font-size: 2.188rem;
+    font-family: 'Dosis', sans-serif;
+    text-align: center;
+}
+
+.amenities-void-space-2 {
+    height: 1rem;
+}
+
+.amenities-descriptive-txt {
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.amenities-void-space-3 {
+    height: 5.063rem;
+
+}
+
+.amenities-icons {
+    height: 7.188rem;
+
+}
+
+.amenities-void-space-4 {
+    height: 2rem;
+}
+
+.amenities-labels {
+    font-size: 1.25rem;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* reserve a room styling */
+.reserve-space{
+    height: 51.375rem;
+}
+
+.reservation-void-space {
+    height: 6.313rem;
+}
+
+.reservation-title-space {
+    height: 5.813rem;
+    font-family: 'Dosis', sans-serif;
+    color: white;
+    font-size: 2.188rem;
+    background-color: #000324;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.reservation-inputs-space {
+    height: 4.063rem;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: white;
+    font-size: 1rem;
+    background-color: #000324;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.reservation-btn {
+    border-radius: 0;
+    border-width: 0.063rem;
+    border-color:#000DC7;
+    height: 2.375rem;
+    width: 11.063rem;
+    background-color: #006EDB;
+    color: white;
+    font-weight: bold;
+}
+.reservation-btn:hover {
+    background-color: #0169d1;
+}
+
+.reservation-fields-spacing {
+    margin-left: 0.469rem;
+    margin-right: 0.469rem;
+}
+
+.reservation-title-bottom-void-space {
+    height: 3.063rem;
+    background-color: #000324;
+}
+
+.reservation-title-padding {
+    background-color: white;
+}
+
+.reservations-image-space {
+    height: 25.875rem;
+    background-image: url("/assets/hamsterreserve.jpg");
+    background-size: cover;
+    background-position: right 60% bottom 35%;
+}
+
+input, select {
+    height: 2.375rem;
+    width: 11.063rem;
+}
+
+/* footer styling */
+.footer-bg {
+    height: 18.75rem;
+    background-color: #000324;
+}
+
+.footer-logo {
+    height: 9.375rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-text {
+    height: 3.75rem;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1rem;
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+
+}
+
+.footer-bottom-padding {
+    height: 5.563rem;
+}
