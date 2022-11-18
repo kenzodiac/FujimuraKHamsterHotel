@@ -162,6 +162,10 @@ li{
     margin-left: .5rem;
 }
 
+.responsiveness-padding-top {
+    margin-top: 0.875rem;
+}
+
 /* packages styling */
 .packages-top-white-space {
     height: 6.625rem;
@@ -242,13 +246,21 @@ li{
     margin-left: -.8rem;
 }
 
+@media screen and (min-width: 1149px) {
+   
+    .flip-horizontal-for-tablets {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    
+}
+
 
 /* amenities styling */
 .amenities-bg{
     background-image: url("/assets/bg.jpg");
     background-size: cover;
     background-position: right 60% bottom 35%;
-    height: 34.25rem;
     color: white;
 }
 
@@ -269,6 +281,7 @@ li{
 .amenities-descriptive-txt {
     text-align: center;
     font-family: 'Source Sans Pro', sans-serif;
+    height: 1.563rem;
 }
 
 .amenities-void-space-3 {
@@ -292,9 +305,17 @@ li{
     text-align: center;
 }
 
+.amenities-void-space-5 {
+    height: 10.563rem;
+}
+
+.amenities-void-space-6 {
+    height: 6rem;
+}
+
 /* reserve a room styling */
 .reserve-space{
-    height: 51.375rem;
+    /* height: 51.375rem; */
 }
 
 .reservation-void-space {
@@ -303,6 +324,7 @@ li{
 
 .reservation-title-space {
     height: 5.813rem;
+    width: 71.063rem;
     font-family: 'Dosis', sans-serif;
     color: white;
     font-size: 2.188rem;
@@ -314,6 +336,7 @@ li{
 
 .reservation-inputs-space {
     height: 4.063rem;
+    width: 71.063rem;
     font-family: 'Source Sans Pro', sans-serif;
     color: white;
     font-size: 1rem;
@@ -345,6 +368,7 @@ li{
 
 .reservation-title-bottom-void-space {
     height: 3.063rem;
+    width: 71.063rem;
     background-color: #000324;
 }
 
@@ -354,6 +378,7 @@ li{
 
 .reservations-image-space {
     height: 25.875rem;
+    width: 71.063rem;
     background-image: url("/assets/hamsterreserve.jpg");
     background-size: cover;
     background-position: right 60% bottom 35%;
