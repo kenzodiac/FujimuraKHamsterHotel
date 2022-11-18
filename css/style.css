@@ -72,9 +72,13 @@
     color: white;
     opacity: 1;
     font-family: 'Dosis', sans-serif;
-    display: flex;
-    align-items:flex-end;
-    justify-content: center;
+}
+
+.header-h1-txt-mobile {
+    font-size: 2rem;
+    color: white;
+    opacity: 1;
+    font-family: 'Dosis', sans-serif;
 }
 
 .header-p-txt {
@@ -82,6 +86,12 @@
     color: white;
     opacity: 1;
     font-family: 'Source Sans Pro', sans-serif;
+}
+
+.header-title {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
 }
 
 /* overview styling */
@@ -92,7 +102,16 @@
 .hamster-home{
     background-image: url("/assets/hamsterhomejpg.jpg");
     height: 26rem;
+    width: 23.063rem;
     background-position: center;
+}
+
+.overview-txt-box{
+    height: 26rem;
+    width: 48.75rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .overview-header{
@@ -253,6 +272,20 @@ li{
     flex-direction: column;
     justify-content:  center;
 
+}
+
+@media screen and (max-width: 564px) {
+   
+    .packages-txt-box {
+        width: 35.063rem;
+        height: 18rem;
+        margin-right: 0.469rem;
+        margin-left: 0.469rem;
+        display: flex;
+        flex-direction: column;
+        justify-content:  center;
+    }
+    
 }
 
 .packages-txt-box-header {
@@ -442,7 +475,6 @@ input, select {
     font-size: 1rem;
     color: white;
     font-family: 'Source Sans Pro', sans-serif;
-
 }
 
 .footer-bottom-padding {
