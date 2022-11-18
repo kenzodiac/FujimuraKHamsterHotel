@@ -207,9 +207,26 @@ li{
     margin-bottom: .3rem;
 }
 
+.rooms-body-txt{
+    font-size: 1rem;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-bottom: 1rem;
+}
+
 .button-spacing {
     margin-bottom: 1.188rem;
     margin-left: .5rem;
+}
+
+.btn-room {
+    border-radius: 0;
+    height: 3.125rem;
+    width: 9.375rem;
+    background-color:#004CC7;
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.25rem;
+    border: 0px;
 }
 
 .responsiveness-padding-top {
