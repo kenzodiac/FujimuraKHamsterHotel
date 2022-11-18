@@ -19,6 +19,36 @@
     outline-offset: -0.313rem;
 }
 
+.menu-btn {
+    color: white;
+    font-size: 1.5rem;
+    font-family: 'Dosis', sans-serif;
+}
+
+.menu-btn:hover {
+    color: white;
+    opacity: .8;
+}
+
+.sidebar {
+    background-color:#000324;
+    opacity: .8;
+    color: white;
+    font-family: 'Dosis', sans-serif;
+}
+
+.sidebar-title {
+    opacity: 1;
+    font-size: 2rem;
+}
+
+.sidebar-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    font-size: 1.5rem;
+}
+
 /* header styling */
 .header{
     background-image: url("/assets/header.jpg");
@@ -44,6 +74,7 @@
     font-family: 'Dosis', sans-serif;
     display: flex;
     align-items:flex-end;
+    justify-content: center;
 }
 
 .header-p-txt {
