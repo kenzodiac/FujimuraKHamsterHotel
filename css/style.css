@@ -15,7 +15,7 @@
 
 .nav-link:hover{
     color: white;
-    outline: solid 0.063rem;
+    outline: solid 0.126rem;
     outline-offset: -0.313rem;
 }
 
