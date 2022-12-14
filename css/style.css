@@ -51,7 +51,7 @@
 
 /* header styling */
 .header{
-    background-image: url("/assets/header.jpg");
+    background-image: url("../assets/header.jpg");
     height: 31.25rem;
     background-size: cover;
     background-position: 50% 55%;
@@ -100,7 +100,7 @@
 }
 
 .hamster-home{
-    background-image: url("/assets/hamsterhomejpg.jpg");
+    background-image: url("../assets/hamsterhomejpg.jpg");
     height: 26rem;
     width: 23.063rem;
     background-position: center;
@@ -132,7 +132,7 @@
 
 /* rooms styling */
 .rooms-bg {
-    background-image: url("/assets/bg2.jpg");
+    background-image: url("../assets/bg2.jpg");
     background-size: cover;
     background-position: right 60% bottom 35%;
 }
@@ -154,7 +154,7 @@
 }
 
 .queen-room-img {
-    background-image: url("/assets/room1.jpg");
+    background-image: url("../assets/room1.jpg");
     background-size: cover;
     height: 11.875rem;
     width: 23.063rem;
@@ -163,7 +163,7 @@
 }
 
 .king-room-img {
-    background-image: url("/assets/room2.jpg");
+    background-image: url("../assets/room2.jpg");
     background-size: cover;
     height: 11.875rem;
     width: 23.063rem;
@@ -172,7 +172,7 @@
 }
 
 .suite-room-img {
-    background-image: url("/assets/room3.jpg");
+    background-image: url("../assets/room3.jpg");
     background-size: cover;
     height: 11.875rem;
     width: 23.06rem;
@@ -250,7 +250,7 @@ li{
 }
 
 .packages-img1-bg {
-    background-image: url("/assets/hamsterwedding.jpg");
+    background-image: url("../assets/hamsterwedding.jpg");
     background-position: center;
     background-size: cover;
     width: 35.063rem;
@@ -261,7 +261,7 @@ li{
 }
 
 .packages-img2-bg {
-    background-image: url("/assets/hamsterspring.jpg");
+    background-image: url("../assets/hamsterspring.jpg");
     background-position: center;
     background-size: cover;
     width: 35.063rem;
@@ -271,7 +271,7 @@ li{
 }
 
 .packages-img3-bg {
-    background-image: url("/assets/hamstercheese.jpg");
+    background-image: url("../assets/hamstercheese.jpg");
     background-position: center;
     background-size: cover;
     width: 35.063rem;
@@ -339,7 +339,7 @@ li{
 
 /* amenities styling */
 .amenities-bg{
-    background-image: url("/assets/bg.jpg");
+    background-image: url("../assets/bg.jpg");
     background-size: cover;
     background-position: right 60% bottom 35%;
     color: white;
@@ -460,7 +460,7 @@ li{
 .reservations-image-space {
     height: 25.875rem;
     width: 71.063rem;
-    background-image: url("/assets/hamsterreserve.jpg");
+    background-image: url("../assets/hamsterreserve.jpg");
     background-size: cover;
     background-position: right 60% bottom 35%;
 }
